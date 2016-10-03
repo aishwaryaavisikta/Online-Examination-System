@@ -1,0 +1,60 @@
+/*login page*/
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+.login{
+  background: url('../images/exam.jpeg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.login-form {
+    max-width: 350px;
+    margin: 30px auto 0;
+    background: #d5d7de;  
+	
+}
+.login-form .form-control {
+    position: relative;
+    font-size: 13px;
+    height: 35px;
+    padding: 10px;
+	width: 280px;
+}
+.login-form .input-group{
+    padding-bottom: 15px;
+	padding: 12px 30px;
+}
+/*.login-form .input-group-addon{
+    padding: 6px 12px;
+    font-size: 16px;
+    color: #8b9199;
+    font-weight: normal;
+    line-height: 1;
+    text-align: center;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0;
+}*/
+.login-form input[type="text"], .login-form input[type="password"] {    
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+    border-radius: 5px; 
+}
+.login-form .btn{
+    border-radius: 5px;
+}
+.form .required{
+    font-size: 16px;
+    color: #00a0df;
+}
+
+.login-wrap {
+    padding: 5px;
+}
